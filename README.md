@@ -2,7 +2,7 @@
 
 # 🍂 Niri + Noctalia Shell (Gruvbox Edition)
 
-Минималистичный и тёплый райс **Arch Linux** на базе скроллящегося Wayland-композитора **Niri** и оболочки **Noctalia Shell** в палитре **Gruvbox Dark**.
+Минималистичный райс **Arch Linux** на базе **Niri** и оболочки **Noctalia Shell** в палитре **Gruvbox Dark**.
 
 ![Main Desktop](screenshots/desktop.png)
 
@@ -14,11 +14,11 @@
 
 | Компонент | Программа | Описание |
 | :--- | :--- | :--- |
-| **WM / Compositor** | [Niri](https://github.com) | Скроллящийся тайлинговый Wayland-композитор |
-| **Shell / Bar** | [Noctalia Shell](https://github.com) | Верхняя панель, виджеты, уведомления и менеджер обоев |
+| **WM / Compositor** | [Niri](https://github.com/niri-wm/niri) | Скроллящийся тайлинговый Wayland-композитор |
+| **Shell / Bar** | [Noctalia Shell](https://github.com/noctalia-dev/noctalia) | Верхняя панель, виджеты, уведомления и менеджер обоев |
 | **Terminal** | [Alacritty](https://alacritty.org) | Быстрый GPU-терминал в цветах Gruvbox Dark |
 | **Shell & Prompt** | [Zsh](https://zsh.org) + [Starship](https://starship.rs) | Оболочка с промптом *Pastel Powerline* и утилитой `bat` |
-| **App Launcher** | [Fuzzel](https://codeberg.org) | Минималистичный Wayland-лаунчер приложений |
+| **App Launcher** | [Fuzzel](https://codeberg.org/dnkl/fuzzel) | Минималистичный Wayland-лаунчер приложений |
 | **File Manager** | Thunar | Лёгкий файловый менеджер с GTK-темой Gruvbox |
 | **Theming** | `nwg-look` | Настройка тем оформления GTK3/GTK4 и иконок |
 
@@ -26,7 +26,7 @@
 
 ## 📸 Галерея
 
-| Лаунчер и файловый менеджер | Меню обоев в Noctalia Shell |
+| Лаунчер и файловый менеджер | Обои в yazi [credits](https://github.com/AngelJumbo/gruvbox-wallpapers) |
 | :---: | :---: |
 | ![Launcher](screenshots/launcher.png) | ![Wallpapers](screenshots/wallpapers.png) |
 
@@ -39,7 +39,7 @@ dotfiles/
 ├── alacritty/    # Конфиг терминала Alacritty
 ├── fuzzel/       # Стили и настройки лаунчера Fuzzel
 ├── gtk/          # Темы GTK3/GTK4, шрифты и настройки nwg-look
-├── niri/         # Конфигурация композитора Niri (config.kdl)
+├── niri/         # Конфиг композитора Niri (config.kdl)
 ├── noctalia/     # Настройки панели, палитры и плагины Noctalia Shell
 ├── screenshots/  # Скриншоты рабочего стола
 ├── starship/     # Конфиг промпта Starship (starship.toml)
