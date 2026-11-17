@@ -2,7 +2,6 @@
 
 # 🍂 Niri + Noctalia Shell (Gruvbox Edition)
 ## RU
-
 Минималистичный райс **Arch Linux** на базе **Niri** и оболочки **Noctalia Shell** в палитре **Gruvbox Dark**.
 
 ![Main Desktop](screenshots/desktop.png)
