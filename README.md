@@ -1,6 +1,7 @@
 <div align="center">
 
 # 🍂 Niri + Noctalia Shell (Gruvbox Edition)
+## RU
 
 Минималистичный райс **Arch Linux** на базе **Niri** и оболочки **Noctalia Shell** в палитре **Gruvbox Dark**.
 
@@ -19,8 +20,8 @@
 | **Terminal** | [Alacritty](https://alacritty.org) | Быстрый GPU-терминал в цветах Gruvbox Dark |
 | **Shell & Prompt** | [Zsh](https://zsh.org) + [Starship](https://starship.rs) | Оболочка с промптом *Pastel Powerline* и утилитой `bat` |
 | **App Launcher** | [Fuzzel](https://codeberg.org/dnkl/fuzzel) | Минималистичный Wayland-лаунчер приложений |
-| **File Manager** | Thunar | Лёгкий файловый менеджер с GTK-темой Gruvbox |
-| **Theming** | `nwg-look` | Настройка тем оформления GTK3/GTK4 и иконок |
+| **File Manager** | [yazi](https://github.com/sxyazi/yazi) | Терминальный файловый менеджер |
+| **Theming** | [nwg-look](https://github.com/nwg-piotr/nwg-look) | Настройка тем оформления GTK3/GTK4 и иконок |
 
 ---
 
