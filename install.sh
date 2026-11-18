@@ -2,8 +2,14 @@
 set -e
 
 GREEN='\033[0;32m'
+RED='\033[0;31m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
+
+if [ "$EUID" -eq 0 ]; then
+    echo -e "${RED}Ошибка: не запускай этот скрипт через sudo! Он сам запросит пароль там, где нужно.${NC}"
+    exit 1
+fi
 
 echo -e "${GREEN}==> [1/4] Установка пакетов из официальных репозиториев...${NC}"
 sudo pacman -S --needed --noconfirm \
@@ -41,7 +47,7 @@ TARGETS=(
     .config/gtk-4.0
     .config/nwg-look
     .config/fontconfig
-    .local/state/noctalia
+    .local/state/noctalia/settings.toml
     Wallpapers
 )
 
@@ -52,6 +58,8 @@ for item in "${TARGETS[@]}"; do
         HAS_BACKUP=true
     fi
 done
+
+mkdir -p "$HOME/.config" "$HOME/.local/state/noctalia"
 
 cd "$(dirname "$0")"
 
