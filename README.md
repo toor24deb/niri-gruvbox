@@ -2,7 +2,7 @@
 
 # 🔸 Niri + Noctalia Shell (Gruvbox Edition)
 
-**[English](#-english)** • **[Русский](#-русский)**
+**[🇬🇧EN](#-english)** • **[🇷🇺RU](#-русский)**
 
 ---
 
@@ -49,7 +49,7 @@ dotfiles/
 ├── noctalia/     # Noctalia Shell settings, palettes, and plugins
 ├── screenshots/  # Desktop screenshots
 ├── starship/     # Starship prompt configuration (starship.toml)
-├── wallpapers/   # Gruvbox wallpaper collection
+├── wallpapers/   # Wallpaper collection by AngelJumbo
 ├── zsh/          # Zsh shell configuration (.zshrc)
 └── install.sh    # Automated installation script
 ```
@@ -82,7 +82,7 @@ stow niri noctalia alacritty fuzzel zsh starship gtk wallpapers
 
 ## ⚠️ VirtualBox / VM Note
 
-This configuration was built and tested inside an **Arch Linux** virtual machine. If you run it on bare metal and encounter display or cursor issues, check the `output` and cursor sections in `niri/.config/niri/config.kdl`.
+This configuration was built and tested inside an **Arch Linux** virtual machine. If you run it on desktop and encounter display or cursor issues, check the `output` and cursor sections in `niri/.config/niri/config.kdl` because the monitor's name is Virtual-1.
 
 ---
 ---
@@ -132,7 +132,7 @@ dotfiles/
 ├── noctalia/     # Настройки панели, палитры и плагины Noctalia Shell
 ├── screenshots/  # Скриншоты рабочего стола
 ├── starship/     # Конфиг промпта Starship (starship.toml)
-├── wallpapers/   # Коллекция обоев в стиле Gruvbox
+├── wallpapers/   # Коллекция обоев от AngelJumbo
 ├── zsh/          # Конфигурация оболочки (.zshrc)
 └── install.sh    # Скрипт автоматической установки
 ```
@@ -165,4 +165,4 @@ stow niri noctalia alacritty fuzzel zsh starship gtk wallpapers
 
 ## ⚠️ Примечание для VirtualBox / VM
 
-Конфигурация создавалась и тестировалась в виртуальной машине на базе **Arch Linux**. Если вы запускаете сборку на реальном железе и столкнулись с особенностями вывода изображения или курсора, проверьте секцию `output` и настройки курсора в `niri/.config/niri/config.kdl`.
+Конфигурация создавалась и тестировалась в виртуальной машине на базе **Arch Linux**. Если вы запускаете сборку на десктопе и столкнулись с особенностями вывода изображения или курсора, проверьте секцию `output` и настройки курсора в `niri/.config/niri/config.kdl` т.к. указанный монитор в конфиге - Virtual-1 .
